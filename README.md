@@ -10,8 +10,9 @@ This also a Matlab imlementation of the paper "A Common Framework for Interactiv
 ### Startup external codes: 
 Run the function startup.m.
 
-### Perform texture transfer:
-Run the function demo.m with the parameter configuration.
+### Texture transfer:
+Run the function demo.m
+use the main function texture_transfer in demo.m with the parameter configuration.
 
 #### Example: 
 [targetStylizedFinal,optS] = texture_transfer(sty, src, trg, imgpath, optS);   
@@ -26,7 +27,19 @@ Run the function demo.m with the parameter configuration.
    
       http://www.mathworks.com/matlabcentral/fileexchange/24183-2d-interpolation/content/mirt2D_mexinterp/mirt2D_mexinterp.m
 
+   3. cpd: for coherent point drift.
+   
+      http://www.bme.ogi.edu/~myron/matlab/cpd/
 
+   4. Saliency: for content-aware saliency detection.
+   
+      https://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Saliency/Saliency.html
+
+   5. tpsWarp: for thin-plane spline warping.
+   
+      https://ww2.mathworks.cn/matlabcentral/fileexchange/24315-warping-using-thin-plate-splines
+
+   
 ## Neural Fast Texture Transfer (NFTT)
 
 

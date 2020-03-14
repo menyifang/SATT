@@ -39,6 +39,9 @@ use the main function texture_transfer in demo.m with the parameter configuratio
    
       https://ww2.mathworks.cn/matlabcentral/fileexchange/24315-warping-using-thin-plate-splines
 
+### Acknowledgments
+Our code is inspired by [Text-Effects-Transfer] (https://github.com/williamyang1991/Text-Effects-Transfer/).
+
    
 ## Neural Fast Texture Transfer (NFTT)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bfff5321-51ea-4a43-93dd-b8c0258dce98" name="172.31.222.101" url="http://172.31.222.101">
+        <fileTransfer host="172.31.222.101" port="22" rootFolder="/data/menyf/transfer/SATT-NFTT" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

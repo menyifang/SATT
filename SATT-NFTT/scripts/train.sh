@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+python train.py --dataroot ./imgs/Gogh --name Gogh_model --fineSize 128 --dataset_mode patch --which_model_netG resnet_9blocks --n_downsampling_G 3 --which_model_netD n_layers --n_layers_D 4 --which_model_netD2 n_layers --n_layers_D2 3 --use_style --no_flip --no_lsgan --padding_type replicate --model texture_transfer --which_direction AtoB --lambda_A 100 --norm batch --pool_size 0 --resize_or_crop no --niter_decay 50000 --niter 50000 --save_epoch_freq 2000 --use_attimg --use_local --gpu_ids 0
+
+# ice (no salient structure)
+# python train.py --dataroot ./imgs/ice --name ice_model --fineSize 128 --dataset_mode patch --which_model_netG resnet_9blocks --n_downsampling_G 3 --which_model_netD n_layers --n_layers_D 4 --which_model_netD2 n_layers --n_layers_D2 3 --use_style --no_flip --no_lsgan --padding_type replicate --model texture_transfer --which_direction AtoB --lambda_A 100 --norm batch --pool_size 0 --resize_or_crop no --niter_decay 50000 --niter 50000 --save_epoch_freq 2000 --gpu_ids 0

@@ -65,6 +65,7 @@ cd SATT/SATT-NFTT
 ```
 
 * Data preparation
+
 The structure of the data folder is recommanded as the provided sub-folders inside `imgs` folder. 
 
 The dataset structure is recommended as:
@@ -80,10 +81,13 @@ The dataset structure is recommended as:
 ```
 
 * Structure guiding
+
 -extract saliency map for the source image with the tool in 'SATT/COTT/saliencyExtraction.m' and put the result in 'imgs/example/sal_train', then convert the saliency map into color image as the source attention map.
+
 -propagate structure with a [CNN geometric matcher](https://github.com/ignacio-rocco/cnngeometric_pytorch) and put the attention maps in 'imgs/example/att_train', 'imgs/example/att_test', w.r.t images in 'train' and 'test'. 
 
 * Training
+
 Download pre-trained vgg models use commands in 'scripts/download_vgg_models.sh', put vgg_conv.pth under './models' folder
 
 
@@ -96,16 +100,17 @@ Some hyper parameters can be modified in the script (train.sh, test.sh) and othe
 To see more intermediate results, check out './checkpoints/example/web/images'.
 
 * Testing
+
 You can test a model using commands like
 
 ```
 bash ./scripts/test.sh
 ```
-Check the results in results/example
+Check the results in 'results/example'. 
 
 
 ### Acknowledgments
-Our code is inspired by [non-stationary_texture_syn] (https://github.com/jessemelpolio/non-stationary_texture_syn).
+Our code is inspired by [non-stationary_texture_syn](https://github.com/jessemelpolio/non-stationary_texture_syn).
 
 
 
